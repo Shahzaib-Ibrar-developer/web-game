@@ -1,0 +1,21 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "A Phaser-based project with http-server for serving static files.",
+  "main": "main.js",
+  "scripts": {
+    "start": "http-server . -p 8080",
+    "test": "echo \"No tests specified.\""
+  },
+  "keywords": [
+    "phaser",
+    "game",
+    "static-server"
+  ],
+  "author": "Webyte",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "project": "file:"
+  }
+}
